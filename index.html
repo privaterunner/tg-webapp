@@ -12,7 +12,7 @@
         Telegram Static Site
     </div>
     <script>
-        let data = JSON.parse(new URLSearchParams(window.Telegram.WebApp.initData).getAll());
+        let data = JSON.parse(new URLSearchParams(window.Telegram.WebApp.initData).get("user"));
         console.log(data)
     </script>
 </body>
